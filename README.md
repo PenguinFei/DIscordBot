@@ -3,7 +3,7 @@
 
 2022/1/31:
 
-初次建立discord python Bot
+建立discord python Bot
 
 目前將token, ping, random dice(本地圖片), Ame(網路圖片) 加入bot中
 
