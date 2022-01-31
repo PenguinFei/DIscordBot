@@ -2,6 +2,7 @@ from discord.ext import commands
 import discord
 import json
 import random
+import os
 
 with open('settings.json', 'r', encoding = 'utf8') as jfile:
     jdata = json.load(jfile)
@@ -12,29 +13,26 @@ bot = commands.Bot(command_prefix="$")
 async def on_ready():
     print("<<<Bot in ready>>>")
 
-##以下為指令區
-##ping值
 @bot.command()
-async def ping(ctx):
-    await ctx.send(bot.latency)
+async def load(ctx, extention):
+    bot.load_extension(f'command.{extention}')
+    await ctx.send(f"Loaded {extention} done")
 
-##測試用
 @bot.command()
-async def Test(ctx):
-    await ctx.send('Testing accurate!!!')
+async def unload(ctx, extention):
+    bot.unload_extension(f'command.{extention}')
+    await ctx.send(f"Un-Loaded {extention} done")
 
-##骰骰子
 @bot.command()
-async def dice(ctx):
-    random_dice = random.choice(jdata['dice'])
-    pic = discord.File(random_dice)
-    await ctx.send(file = pic)
-
-##網路圖片(不須discord.File)
-##記得點選 "複製圖片位置"
-@bot.command()
-async def Ame(ctx):
-    await ctx.send(jdata['Ame'])
+async def reload(ctx, extention):
+    bot.reload_extension(f'command.{extention}')
+    await ctx.send(f"Re-Loaded {extention} done")
 
 
-bot.run(jdata['token']) 
+
+for Filename in os.listdir('./command'):
+    if Filename.endswith('.py'):
+        bot.load_extension(F'command.{Filename[:-3]}')
+
+if __name__ == "__main__":
+    bot.run(jdata['token'])  
