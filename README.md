@@ -1,6 +1,3 @@
-# DiscordBot
-Discord bot made with Python
-
 編輯紀錄:
 ==============================
 
