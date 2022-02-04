@@ -7,7 +7,7 @@
 
 目前將token, ping, random dice(本地圖片), Ame(網路圖片) 加入bot中
 
-加入cog系統，以方便管理和更新(cog可以分類指令功能，亦可以reload, unload特定分類) <<2022/2/1：已完成>>
+加入cog系統，以方便管理和更新(cog可以分類指令功能，亦可以reload, unload特定分類)  <<2022/2/1：已完成>>
 
 預計下次分類成Entertain更詳細分類and Repl.it託管 <<未完成>>
 
