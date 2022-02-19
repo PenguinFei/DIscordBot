@@ -3,9 +3,9 @@
 
 ## 2022/1/31
 
-建立discord python Bot
+* **建立discord python Bot**
 
-目前將token, ping, random dice(本地圖片), Ame(網路圖片) 加入bot中
+* **將token, ping, random dice(本地圖片), Ame(網路圖片) 加入bot中**
 
 - [x] 加入cog系統，以方便管理和更新(cog可以分類指令功能，亦可以reload, unload特定分類)  <<2022/2/1：已完成>>
 
@@ -17,9 +17,9 @@
 
 ## 2022/2/4
 
-成功在discord bot建立pixiv抓圖指令
+* **成功在discord bot建立pixiv抓圖指令**
 
-成功建立基本功能 但尚未修復完全(如網頁error等條件等)
+* **成功建立基本功能 但尚未修復完全(如網頁error等條件等)**
 
 之所以花那麼久時間 是因為卡在初始程式碼過於複雜 不易修復
 
@@ -35,7 +35,7 @@
 
 ## 2022/2/11
 
-發現有些基本功能尚未加入 於今日著手進行 增加 on_member_join 和 on_member_remove 訊息
+* **增加 on_member_join 和 on_member_remove 訊息**
 
 結果程式碼無論如何修改 都無法使終端機接收新成員的加入
 
@@ -49,7 +49,7 @@
 
 也呈現出 debug 有待加強
 
-- [ ] 下次希望以加入訊息做設計優化 而不是只傳送文字提醒而已
+- [ ] 加入訊息做設計優化 而不是只傳送文字提醒而已
 
 更正：先從discord api閱讀理解開始 有助於開發程式碼
 
@@ -57,9 +57,9 @@
 
 ## 2022/2/16
 
-將上週的加入離開訊息單獨拉出來形成一個Cog 以方便日後維修
+* **將上週的加入離開訊息單獨拉出來形成一個Cog 以方便日後維修**
 
-並新增一個keyword偵測器 且將keyword list放置於json檔中 較為美觀且乾淨
+* **新增一個keyword偵測器 且將keyword list放置於json檔中 較為美觀且乾淨**
 
 雖然目前可以偵測單一單字 但尚未能判斷句子是否有關鍵字
 
@@ -80,9 +80,7 @@
 
 * **新增discord bot embed遷入訊息**
 
-但因為token在github上 似乎不太適合改為公開
-
-必須另想辦法
+但因為token在github上 所以把所有settings.json裡的token刪掉了
 
 
 
