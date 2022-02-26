@@ -15,7 +15,7 @@ class Task(Cog_Extention):
         await ctx.send(f'Set Channel: {self.channel.mention}')
 
     @commands.command()
-    async def set_time(self, ctx, time):
+    async def time_set(self, ctx, time):
         #重製時間計數器
         self.counter = 0
         with open('settings.json', 'r', encoding='utf8') as jfile:
