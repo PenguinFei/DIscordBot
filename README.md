@@ -128,3 +128,12 @@ _下次丟備份時把token刪除 避免麻煩_
 >>配合Repl.it與UptimeRobot 成功託管
 >>_(優先託管4.0版本 較為穩定_
 
+## 2022/3/3 _(bot5.2)_
+
+>* **新增Member Cog**
+>
+>* **新增members指令**
+>
+>>可簡易查詢online和offline成員狀態
+
+
