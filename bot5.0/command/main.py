@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from core.classes import Cog_Extention
 
-class main(Cog_Extention):
+class Main(Cog_Extention):
     ##ping值
     @commands.command()
     async def ping(self, ctx):
@@ -20,5 +20,5 @@ class main(Cog_Extention):
         await ctx.channel.purge(limit = num + 1)
 
 def setup(bot):
-    bot.add_cog(main(bot))
+    bot.add_cog(Main(bot))
     
