@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from core.classes import Cog_Extention
 
-class Main(Cog_Extention):
+class main(Cog_Extention):
     ##ping值
     @commands.command()
     async def ping(self, ctx):
