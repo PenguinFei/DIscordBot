@@ -1,0 +1,36 @@
+{
+    "token": "OTM3NTcyNTYzMDgzNzM5MTM2.Yfdsfg.F2J7ghRut8GUfLatJJQMQN0hIkU",
+    "dice": [
+        "C:\\Users\\Kuo\\Desktop\\python\\bot\\dice\\1.jpg",
+        "C:\\Users\\Kuo\\Desktop\\python\\bot\\dice\\2.jpg",
+        "C:\\Users\\Kuo\\Desktop\\python\\bot\\dice\\3.jpg",
+        "C:\\Users\\Kuo\\Desktop\\python\\bot\\dice\\4.jpg",
+        "C:\\Users\\Kuo\\Desktop\\python\\bot\\dice\\5.jpg",
+        "C:\\Users\\Kuo\\Desktop\\python\\bot\\dice\\6.jpg"
+    ],
+    "Ame": [
+        "https://img.ruten.com.tw/s2/9/45/aa/22042663990698_263.jpg",
+        "https://c.tenor.com/ZzE3npc6FNcAAAAi/ame-walfie.gif",
+        "https://c.tenor.com/4kJjdFPP4tUAAAAi/amelia-watson-hololive.gif",
+        "https://c.tenor.com/eSRknnJBNS8AAAAi/ame.gif",
+        "https://memeprod.ap-south-1.linodeobjects.com/user-maker-thumbnail/affeaf32dad4ab199dcf276f69a2daa1.gif",
+        "https://c.tenor.com/FrvJoGXmElQAAAAi/walfie-ame.gif",
+        "https://c.tenor.com/Rh73r0Z_UugAAAAC/amelia-watson-walfie.gif",
+        "https://c.tenor.com/JGHW-a4rL0sAAAAi/ame.gif",
+        "https://i.imgur.com/gzcJSye.gif",
+        "https://walfiegif.files.wordpress.com/2020/11/out-transparent-1.gif",
+        "https://i.imgur.com/5ZFK5xc.gif",
+        "https://i.imgur.com/dPgQqah.jpg",
+        "https://truth.bahamut.com.tw/s01/202011/fee15295147b909d44a9e4c536eae2d7.JPG?w=1000",
+        "https://i.imgur.com/ULCI0YJ.gif"
+    ],
+    "welcome_channel": "941659703849652224",
+    "leave_channel": "941659755745779713",
+    "keyword": [
+        "apple",
+        "Ame",
+        "Python"
+    ],
+    "time": "1623",
+    "role_line": "952451793143599134"
+}
