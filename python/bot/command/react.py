@@ -28,4 +28,4 @@ class react(Cog_Extention):
         await ctx.send(jdata['Ame'])
 
 def setup(bot):
-    bot.add_cog(React(bot))
+    bot.add_cog(react(bot))
