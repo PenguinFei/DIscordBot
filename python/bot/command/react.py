@@ -8,7 +8,7 @@ with open('settings.json', 'r', encoding = 'utf8') as jfile:
     jdata = json.load(jfile)
 
 
-class React(Cog_Extention):
+class react(Cog_Extention):
     ##測試用
     @commands.command()
     async def Test(self, ctx):
