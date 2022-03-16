@@ -9,4 +9,4 @@ class main(Cog_Extention):
         await ctx.send(f'{round(self.bot.latency*1000)}(ms)')
 
 def setup(bot):
-    bot.add_cog(Main(bot))
+    bot.add_cog(main(bot))
