@@ -6,7 +6,7 @@ from core.classes import Cog_Extention
 with open('settings.json', 'r', encoding = 'utf8') as jfile:
     jdata = json.load(jfile)
 
-class Event(Cog_Extention):
+class event(Cog_Extention):
     @commands.Cog.listener()
     async def on_member_join(self, member):
         #print("Join success")
@@ -35,4 +35,4 @@ class Event(Cog_Extention):
 
 
 def setup(bot):
-    bot.add_cog(Event(bot))
+    bot.add_cog(event(bot))
