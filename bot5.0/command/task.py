@@ -3,7 +3,7 @@ from discord.ext import commands
 from core.classes import Cog_Extention
 import json, asyncio, datetime
 
-class task(Cog_Extention):
+class Task(Cog_Extention):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
@@ -22,5 +22,5 @@ class task(Cog_Extention):
         await ctx.send(f'Set Channel: {self.channel.mention}')
 
 def setup(bot):
-    bot.add_cog(task(bot))
+    bot.add_cog(Task(bot))
 
